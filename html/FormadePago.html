@@ -19,10 +19,18 @@
         <div>
         <h2>Forma de Pago</h2>
         <h4>Mis Tarjetas</h4>
-        <input type="checkbox" name="tarjeta1"/>Mastercard12
-        <input type="checkbox" name="tarjeta1"/>Mastercard12
-        <input type="checkbox" name="tarjeta1"/>Mastercard12
-        <a href="FinalizardePago.html" name="finalizar">Finalizar Pedido</a>
+        <form>
+            <label for="mas">
+        <input type="radio" name="tarjeta1" value="456123" id="mas"/>Mastercard12
+        </label>
+        <label for="visa">
+        <input type="radio" name="tarjeta1" value="456321" id="visa"/>Mastercard12
+    </label>
+    <label for="credito">
+        <input type="radio" name="tarjeta1" value="7896321" id="credito"/>Mastercard12
+    </label>
+        <button type="submit" name="pedido"><a href="FinalizardePago.html" name="finalizar">Finalizar Pedido</a></button>
+    </form>
     </div>
     <div>
         <h3>Añadir Nueva Tarjeta</h3>
@@ -33,7 +41,7 @@
             <img src="." alt="Titular de tarjeta" width="50px" height="auto"/>
             <input type="text" name="nombre" placeholder="Titular de Tarjeta"/>
             <img src="." alt="Caducidad" width="50px" height="auto"/>
-            <input type="text" name="Caducidad" placeholder="Caducidad"/>
+            <input type="number" name="Caducidad" placeholder="Caducidad"/>
             <img src="." alt="codigo seguro" width="50px" height="auto"/>
             <input type="nomber" name="nomber" placeholder="Codigo Seguro"/>
             <button type="submit" name="añadir" value="Enviar">Añadir a mis Tarjetas</button>
@@ -91,10 +99,10 @@
             
         <div>
             <ul>
-                <li> Centro de Ayuda</li>
-                <li> Ayudaa al </li>
-                <li> Centro de Ayuda</li>
-                <li> Centro de Ayuda</li>
+                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
+                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
+                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
+                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
             </ul>
         </div>
             
