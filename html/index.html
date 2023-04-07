@@ -4,123 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Carllotas flower</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
-<body>
-    <header>
-        <img src="." alt="logo" width="50px" height="auto"/>
-        <h4>mi tienda</h4>
-        <input type="search" name="buscador" placeholder="Buscar Producto"/>
-        <button type="submit" name="enviar"><a href="carrito.html" name="carrito">Carrito</a></button><span>1</span>
+<body class="body">
+    <header class="header">
+        <img class="logotipo" src="../asses/images/Logoipopng.png" alt="logo" width="50px" height="auto"/>
+        <!--<h4>mi tienda</h4>-->
+        <input class="principal-btn" type="search" name="buscador" placeholder="Buscar Producto"/>
+        <button class="car-btn" type="submit" name="enviar"><a href="carrito.html"><span>Carrito</span></a></button><span>1</span>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="carrito.html">Carrito</a></li>
-            <li><a href="detallesproductos.html">Detalles de Productos</a></li>
+    <nav class="container">
+        <div class="nav">
+         
+            <h4><a href="index.html"><span>Inicio</span></a></h4>
+            <h4><a href="productos.html"><span>Productos</span></a></h4>
+            <h4><a href="carrito.html"><span>Carrito</span></a></h4>
+            <h4><a href="detallesproductos.html"><span>Detalles de Productos</span></a></h4>
+        </div>
 
-
-        </ul>
+        
     </nav>
     <main>
         <div>
-            <h3>Iniciar Sesion</h3>
-            <p>Accede con tus Datos</p>
-            <form>
-                <input type="email" name="name" placeholder="Nombre o email"/>
+           
+            <form  class="sesion" action="productos.html" method="get">
+                <h3><span>Iniciar Sesion</span></h3>
+                <p><span>Accede con tus Datos</span></p>
+                <input type="email" name="name" placeholder="Usuario"/>
                 <input type="password" name="contraseña" placeholder="Contraseña"/>
-                <button type="submit" name="enviar"><a href="productos.html" name="productos">Iniciar Sesion</a></button>
+                <button class="btn" type="submit" name="enviar"><a href="productos.html" name="productos"><span>Iniciar Sesion</span></a></button>
                 
             </form>
         </div>
         <div>
+            <form class="registro" action= "productos.html" method="get">
             <h3>Registrate</h3>
-            <p>Crea tu Cuenta</p>
-            <form>
+            <p>Crea tu cuenta y disfruta de descuentos</p>
                 <input type="text" name="name" placeholder="Nombre"/>
                 <input type="text" name="apellido" placeholder="Apellido"/>
                 <input type="email" name="email" placeholder="Email"/>
                 <input type="password" name="contraseña" placeholder="Contraseña"/>
-                <button type="submit" name="enviar"><a href="productos.html" name="productos">Registrarse</a></button>
+                <button type="submit" name="enviar"><a href="productos.html" name="productos"><span>Crear Cuenta</span></a></button>
+                
                 
             </form>
         </div>
     </main>
-    <section>
-        <div>
-            <img src="." alt="seguro" width="50px" height="auto">
+    <section class="metodos">
+        <div class="seguro">
+            <img src="../asses/icons/pagoseguro.png" alt="seguro" width="50px" height="auto">
             <div>
                 <h3>Pago Seguro</h3>
-                <h4>100% Garantizado</h4>
+                <h5>100% Garantizado</h5>
             </div>
         </div>
-        <div>
-            <img src="." alt="seguro" width="50px" height="auto">
+        <div class="envio">
+            <img src="../asses/icons/envio.png" alt="envio" width="50px" height="auto">
             <div>
-                <h3>Pago Seguro</h3>
-                <h4>100% Garantizado</h4>
+                <h2>Envío Gratis</h2>
+                <h5>En pedidos de +100€</h5>
             </div>
         </div>
-        <div>
-            <img src="." alt="seguro" width="50px" height="auto">
+        <div class="garantia">
+            <img src="../asses/icons/garantia.png" alt="garantia" width="50px" height="auto">
             <div>
-                <h3>Pago Seguro</h3>
-                <h4>100% Garantizado</h4>
+                <h3>Garantía de calidad</h3>
+                <h4>En todos los productos</h4>
             </div>
         </div>
-        <div>
-            <img src="." alt="seguro" width="50px" height="auto">
+        <div class="ofertas">
+            <img src="../asses/icons/ofertas.png" alt="ofertas" width="50px" height="auto">
             <div>
-                <h3>Pago Seguro</h3>
-                <h4>100% Garantizado</h4>
+                <h2>Ofertas únicas</h2>
+                <h4>Clientes y newsletters</h4>
             </div>
         </div>
 
     </section>
     <footer>
         <div>
-            <img src="." alt="logo" width="50px" height="auto"/>
-        <h4>mi tienda</h4>
+            <div class="imagen">
+            <img src="../asses/images/Logoipopng.png" alt="logo" width="150px" height="auto"/>
         
-        <div>
-            <ul>
-                <li> Centro de Ayuda</li>
-                <li> Ayudaa al </li>
-                <li> Centro de Ayuda</li>
-                <li> Centro de Ayuda</li>
-            </ul>
+        </div>
+
+        <div class="listas">
+        <div class="lista-1">
+            
+                <span> Centro de Ayuda</span>
+                <span> Servico al consumidor</span>
+                <span> Escribenos</span>
+                <span> Servicio Teléfonico</span>
+            
         </div>
             
-        <div>
-            <ul>
-                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
-                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
-                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
-                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
+        <div class="lista-2">
+            
+                <a href="Politica.html" name="politica"><span> Politica de privacidad</span></a>
+                <a href="Politica.html" name="politica"><span> Condiciones de compra</span></a>
+                <a href="Politica.html" name="politica"><span> Opiniones de clientes</span></a>
+                <a href="Politica.html" name="politica"><span> Aviso de privacidad</span></a>
                 
-            </ul>
+            </div>
         </div>
             
         </div>
         <div>
-            <h3>Unete a Nuestra Comunidad</h3>
-            <form>
+        <div clas="formulario" >
+            <form class="redes" class="" action="" method="get">
+                <h3>Únete a nuestra comunidad y recibe <br/>
+                    <span>ofertas diarias</span></h3>
+                    <div class="new">
                 <input type="email" name="email" placeholder="Escribe tu email"/>
                 <button type="submit" name="enviar" value="enviar"> Suscribirme</button>
-            </form>
+            </div>
             <label for="politica">
             <input type="checkbox" name="politica" id="politica"/>Acepto la politica de privacidad
-        </label>
-
+         </label>
+         </form>
+         </div>
         <h3>Siguenos en Redes</h3>
-        <img src="." alt="fb" width="50px" height="50px"/>
-        <img src="." alt="Ig" width="50px" height="50px"/>
-        <img src="." alt="T" width="50px" height="50px"/>
-        <img src="." alt="fb" width="50px" height="50px"/>
+        <img src="../asses/icons/whatsapp.png" alt="fb" width="50px" height="50px"/>
+        <img src="../asses/icons/insta.png" alt="Ig" width="50px" height="50px"/>
+        <img src="../asses/icons/face.png" alt="T" width="50px" height="50px"/>
+        <img src="../asses/icons/twitter.png" alt="fb" width="50px" height="50px"/>
         </div>
-      
     </footer>
-    
+</div>
 </body>
 </html>
