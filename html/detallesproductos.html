@@ -4,51 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
     <title>DetallesProducto</title>
 </head>
 <body>
     <header>
         <img src="." alt="logo" width="50px" height="auto"/>
-        <h4>mi tienda</h4>
         <input type="search" name="buscador" placeholder="Buscar Producto"/>
-        <a href="carrito.html" name="carrito">Carrito<span>1</span></a>
+        <a class="btn" id="comprar" href="carrito.html" name="carrito">Carrito<span>1</span></a>
     </header>
-    <nav>
+    <nav class="container" id="navegador">
+        <div class="col-izq">
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="productos.html">Productos</a></li>
             <li><a href="carrito.html">Carrito</a></li>
             <li><a href="detallesproductos.html">Detalles de Productos</a></li>
+            </ul>
+        </div>
+        <div class="col-der">
+        <ul>
             <li><a href="carrito.html">Mis Pedidos</a></li>
             <li><a href="index.html">logout</a></li>
-
-
         </ul>
+    </div>
     </nav>
     <main>
         <div>
             <img src="." alt="producto1" width="350" height="auto"/>
         </div>
-        <div>
-        
+        <div class="info">
             <h2>Perola para el agua</h2>
             <p>te ayudara en casa</p>
             <p>$45</p>
             <input type="number" name="producto" width="50px" height="auto" min="1"/>
             <button type="submit" name="producto">Añadir al Carrito</button>
             <p>2 años de garantia</p>
-
         </div>
-        
         <div>
             <div>
-            
             <img src="." alt="caracteristicas" width="50px" height="auto"/>
             <h3>Caracteristicas</h3>
         </div>
         <div>
-    
-            
             <img src="." alt="icono" width="50px" height="auto"/>
             <p><strong>Lorem ipsum dolor sit amet consectetur,</strong> adipisicing elit. Enim accusamus dolorum nulla incidunt quam culpa labore distinctio iste, deleniti iusto? Laboriosam, doloremque magni! Amet, sint commodi voluptate perferendis accusantium maiores.</p>
             <img src="." alt="icono" width="50px" height="auto"/>
@@ -82,8 +85,15 @@
             <h2>Opiniones Destacadas</h2>
             <p>Opiniones de nuestros clientes</p>
         </div>
-        <div>
+        <div class="box">
             <p>jofhwoedfncdsjbncfijdsbnledzevsjlbnkuh bvhdjbs kfhiwsofhnhkvzclhzdbnhkvblzdkjnvñhkjzdgbvhbj</p>
+        </div>
+        <div class="rating">
+            <i class="bi bi-star-fill main-color"></i>
+            <i class="bi bi-star-fill main-color"></i>
+            <i class="bi bi-star-fill main-color"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
         </div>
 
         </div>

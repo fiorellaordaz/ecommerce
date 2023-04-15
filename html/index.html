@@ -5,119 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carllotas flower</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
-<body class="body">
-    <header class="header">
-        <img class="logotipo" src="../asses/images/Logoipopng.png" alt="logo" width="50px" height="auto"/>
-        <!--<h4>mi tienda</h4>-->
-        <input class="principal-btn" type="search" name="buscador" placeholder="Buscar Producto"/>
-        <button class="car-btn" type="submit" name="enviar"><a href="carrito.html"><span>Carrito</span></a></button><span>1</span>
+<body>
+    <header>
+        <img src="../asses/images/Logoipopng.png" alt="logo" width="50px" height="auto"/>
+        <input type="search" name="buscador" placeholder="Buscar Producto"/>
+        <a class="btn" id="comprar" href="carrito.html"> <span>1</span>Carrito</a>
     </header>
-    <nav class="container">
-        <div class="nav">
-         
-            <h4><a href="index.html"><span>Inicio</span></a></h4>
-            <h4><a href="productos.html"><span>Productos</span></a></h4>
-            <h4><a href="carrito.html"><span>Carrito</span></a></h4>
-            <h4><a href="detallesproductos.html"><span>Detalles de Productos</span></a></h4>
+    <nav>
+        <div>
+         <ul>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+            <li><a href="detallesproductos.html">Detalles de Productos</a></li>
+            <li><a href="detallesproductos.html">Gadgets</a></li>
+            <li><a href="detallesproductos.html">Ofertass</a></li>
+         </ul>
         </div>
-
-        
     </nav>
     <main>
-        <div>
-           
-            <form  class="sesion" action="productos.html" method="get">
-                <h3><span>Iniciar Sesion</span></h3>
-                <p><span>Accede con tus Datos</span></p>
+        <div class="box">
+            <form>
+                <h3>Iniciar Sesión</h3>
+                <p>Accede con tus Datos</p>
                 <input type="email" name="name" placeholder="Usuario"/>
                 <input type="password" name="contraseña" placeholder="Contraseña"/>
-                <button class="btn" type="submit" name="enviar"><a href="productos.html" name="productos"><span>Iniciar Sesion</span></a></button>
+                <a href="productos.html" name="productos">Iniciar Sesion</a>
                 
             </form>
         </div>
-        <div>
-            <form class="registro" action= "productos.html" method="get">
+        <div class="box">
+            <form>
             <h3>Registrate</h3>
             <p>Crea tu cuenta y disfruta de descuentos</p>
                 <input type="text" name="name" placeholder="Nombre"/>
                 <input type="text" name="apellido" placeholder="Apellido"/>
                 <input type="email" name="email" placeholder="Email"/>
                 <input type="password" name="contraseña" placeholder="Contraseña"/>
-                <button type="submit" name="enviar"><a href="productos.html" name="productos"><span>Crear Cuenta</span></a></button>
-                
-                
+                <a href="productos.html" name="productos">Crear Cuenta</a>
             </form>
         </div>
     </main>
-    <section class="metodos">
-        <div class="seguro">
-            <img src="../asses/icons/pagoseguro.png" alt="seguro" width="50px" height="auto">
-            <div>
+    <section>
+            <img src="." alt="seguro" width="50px" height="auto">
                 <h3>Pago Seguro</h3>
                 <h5>100% Garantizado</h5>
-            </div>
-        </div>
-        <div class="envio">
-            <img src="../asses/icons/envio.png" alt="envio" width="50px" height="auto">
-            <div>
+        <div>
+            <img src="." alt="envio" width="50px" height="auto">
                 <h2>Envío Gratis</h2>
                 <h5>En pedidos de +100€</h5>
-            </div>
         </div>
-        <div class="garantia">
-            <img src="../asses/icons/garantia.png" alt="garantia" width="50px" height="auto">
-            <div>
+        <div>
+            <img src="." alt="garantia" width="50px" height="auto">
                 <h3>Garantía de calidad</h3>
                 <h4>En todos los productos</h4>
-            </div>
         </div>
-        <div class="ofertas">
-            <img src="../asses/icons/ofertas.png" alt="ofertas" width="50px" height="auto">
-            <div>
+        <div>
+            <img src="." alt="ofertas" width="50px" height="auto">
                 <h2>Ofertas únicas</h2>
                 <h4>Clientes y newsletters</h4>
-            </div>
         </div>
-
     </section>
     <footer>
         <div>
-            <div class="imagen">
-            <img src="../asses/images/Logoipopng.png" alt="logo" width="150px" height="auto"/>
-        
-        </div>
-
-        <div class="listas">
-        <div class="lista-1">
-            
-                <span> Centro de Ayuda</span>
-                <span> Servico al consumidor</span>
-                <span> Escribenos</span>
-                <span> Servicio Teléfonico</span>
-            
-        </div>
-            
-        <div class="lista-2">
-            
-                <a href="Politica.html" name="politica"><span> Politica de privacidad</span></a>
-                <a href="Politica.html" name="politica"><span> Condiciones de compra</span></a>
-                <a href="Politica.html" name="politica"><span> Opiniones de clientes</span></a>
-                <a href="Politica.html" name="politica"><span> Aviso de privacidad</span></a>
-                
-            </div>
-        </div>
-            
+            <img src="." alt="logo" width="150px" height="auto"/>
+                <p> Centro de Ayuda</p>
+                <p> Servico al consumidor</p>
+                <p> Escribenos</p>
+                <p> Servicio Teléfonico</p>
         </div>
         <div>
-        <div clas="formulario" >
-            <form class="redes" class="" action="" method="get">
-                <h3>Únete a nuestra comunidad y recibe <br/>
-                    <span>ofertas diarias</span></h3>
-                    <div class="new">
-                <input type="email" name="email" placeholder="Escribe tu email"/>
-                <button type="submit" name="enviar" value="enviar"> Suscribirme</button>
+                <a href="Politica.html" name="politica"> Politica de privacidad</a>
+                <a href="Politica.html" name="politica"> Condiciones de compra</a>
+                <a href="Politica.html" name="politica"> Opiniones de clientes</a>
+                <a href="Politica.html" name="politica"> Aviso de privacidad</a>
+            </div>
+            <form>
+                <h3>Únete a nuestra comunidad y recibe
+                    ofertas diarias</h3>
+                    <div>
+                <input name="email" placeholder="Escribe tu email"/>
+                <button name="enviar" value="enviar"> Suscribirme</button>
             </div>
             <label for="politica">
             <input type="checkbox" name="politica" id="politica"/>Acepto la politica de privacidad

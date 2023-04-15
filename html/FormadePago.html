@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <title>Forma de Pago</title>
 </head>
-<body>
+<body> 
     <header>
         <img src="." alt="logo" width="50px" height="auto"/>
-        <h4>mi tienda</h4>
-        <a href="carrito.html" name="carrito">Carrito</a>
-        <a href="" name="forma de pago">Forma de Pago</a>
-        <a href="" name="Finalizar Pedido">Finalizar Pedido</a>
+        <a class="btn" href="carrito.html" name="carrito">Carrito</a>
+        <i class="bi bi-arrow-right-circle"></i>
+        <a class="btn" href="" name="forma de pago">Forma de Pago</a>
+        <i class="bi bi-arrow-right-circle"></i>
+        <a class="btn" href="" name="Finalizar Pedido">Finalizar Pedido</a>
     </header>
     <main>
         <a href="productos.html" name="productos">Seguir Comprando</a>
-        <div>
+        
         <h2>Forma de Pago</h2>
+        <div class="box">
         <h4>Mis Tarjetas</h4>
         <form>
             <label for="mas">
@@ -29,11 +36,11 @@
     <label for="credito">
         <input type="radio" name="tarjeta1" value="7896321" id="credito"/>Mastercard12
     </label>
-        <button type="submit" name="pedido"><a href="FinalizardePago.html" name="finalizar">Finalizar Pedido</a></button>
+        <button type="submit" name="pedido"><a href="FinalizardePago.html" name="finalizar">Pagar con esta Tarjeta</a></button>
     </form>
     </div>
     <div>
-        <h3>Añadir Nueva Tarjeta</h3>
+        <p>Añadir Nueva Tarjeta</p>
         <!-- cuadro de las tarjetas faltan los iconos -->
         <form>
             <img src="." alt="icono de tarjeta" width="50px" height="auto"/>
@@ -45,12 +52,8 @@
             <img src="." alt="codigo seguro" width="50px" height="auto"/>
             <input type="nomber" name="nomber" placeholder="Codigo Seguro"/>
             <button type="submit" name="añadir" value="Enviar">Añadir a mis Tarjetas</button>
-            
-            
         </form>
     </div>
-    
-
     </main>
     <section>
         <div>
@@ -81,7 +84,6 @@
                 <h4>100% Garantizado</h4>
             </div>
         </div>
-
     </section>
     <footer>
         <div>
@@ -96,7 +98,6 @@
                 <li> Centro de Ayuda</li>
             </ul>
         </div>
-            
         <div>
             <ul>
                 <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
@@ -123,7 +124,6 @@
         <img src="." alt="T" width="50px" height="50px"/>
         <img src="." alt="fb" width="50px" height="50px"/>
         </div>
-      
     </footer>
     
 </body>

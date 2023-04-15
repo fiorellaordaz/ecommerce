@@ -1,0 +1,90 @@
+body,a{
+    margin: 0px;
+    color:#744253;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+/*tipografias*/
+h1, .h1 {
+    margin-top: 0;
+    font-size: 3.052rem;
+  }
+  h2, .h2 {font-size: 2.441rem;}
+  h3, .h3 {font-size: 1.953rem;}
+  h4, .h4 {font-size: 1.563rem;}
+  h5, .h5 {font-size: 1.25rem;}
+  small, .text_small {font-size: 0.8rem;
+}
+/*btn*/
+.btn{
+    padding: 8px;
+    position: relative;
+    display: inline-block;
+    left:6%;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main-color{
+    color: #c78283;
+}
+#comprar{
+    padding: 8px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;  
+}
+/*cards*/
+.rating{
+    color: #cacaca;
+}
+
+.info {
+    padding: 2px;
+}
+.info h3,
+.info p,
+.info .btn,
+.info .rating{
+    margin-bottom: 4px;
+}
+.bi{
+    margin-right: 4px
+
+}
+span{
+    position: absolute;
+    padding: 2px;
+    width: 18px;
+    height: 18px;
+    background-color:#c78283;
+    border-radius: 50px;
+    top:0;
+    right:0;
+}
+/*box*/
+.box{
+    border:2px solid #744253;
+}
+/* Alinear tipo wrap*/
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#navegador ul li{
+    display: inline-block;
+}
+#navegador .col-izq,
+#navegador .col-der{
+    display: inline-block;
+   width: 49%; 
+}
+#navegador .col-der{
+    text-align:right;
+}
+
