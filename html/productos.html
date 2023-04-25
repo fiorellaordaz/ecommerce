@@ -12,36 +12,86 @@
     <title>Productos</title>
 </head>
 <body>
-    <header class="container">
-        <img src="." alt="logo" width="50px" height="auto"/>
+<header class="container cabeza">
+        <img src="../asses/images/Logoipopng.png" alt="logo"/>
         <input type="search" name="buscador" placeholder="Buscar Producto"/>
         <a class="btn" id="comprar" href="carrito.html" name="carrito">Carrito<span>1</span></a>
-    </header>
-    <nav class="container" id="navegador">
-        <div class="col-izq">
+</header>
+<nav class="container" id="navegador">
+    <div class="col-izq">
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="carrito.html">Carrito</a></li>
-            <li><a href="detallesproductos.html">Detalles de Productos</a></li>
+            <li><a href="../html/index.html">Inicio</a></li>
+            <li><a href="../html/productos.html">Productos</a></li>
+            <li><a href="../html/carrito.html">Carrito</a></li>
+            <li><a href="../html/detallesproductos.html">Detalles de Productos</a></li>
         </ul>
     </div>
     <div class="col-der">
-        <ul>
-            <li><a href="carrito.html">Mis Pedidos</a></li>
-            <li><a href="index.html">logout</a></li>
+        <ul class="menu">
+            <li><a href="../html/carrito.html">Mis Pedidos</a></li>
+            <li><a href="../html/index.html">logout</a></li>
         </ul>
     </div>
-    </nav>
-    <main class="container">
-        <h2>Productos</h2>
-        <h3>Más productos</h3>
+</nav>
+
+<main class="container">
+        <h1>Todos nuestros productos</h1>
+        <div class="vermas">
+        <h3> Productos más vendidos</h3>
         <a href="detallesproductos.html" name="detalles">Ver Todos</a>
+    </div>
+        <div class="Franja-card">
+    <div class="card">
+            <img src="../asses/images/rosas.jpg" alt="primer producto"/>
+    <div class="info-card">
+        <div class="producto-titulo">
+        <h3 class="h4">Rosas 40 unidades</h3>
+        <p>30,50 <i class="bi bi-currency-euro"></i></p>
+    </div>
+    <div class="rating">
+        <i class="bi bi-star-fill main-color"></i>
+        <i class="bi bi-star-fill main-color"></i>
+        <i class="bi bi-star-fill main-color"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+    </div>
+        <p> Ramo de rosas: Contiene 40 unideades del color que elijas bajo disponibilidad. puedes agregarle cualquier de nuestros extras disponibles y hacer aún más especial la sorpresa</p>
+        <div class="card-actions">
+        <button class="btn anadir" type="submit" name="boton">Añadir al carrito</button>
+        <a class="btn btn-secundario" href="carrito.html">Ver</a>
+    </div>
+    </div>
+    </div>
+    <div class="Franja-card">
         <div class="card">
-            <img src="." alt="primer producto" width="200px" height="auto">
-            <div class="info">
-            <h3>cocinita feliz</h3>
-            <p>5 <i class="bi bi-currency-euro"></i></p>
+                <img src="../asses/images/rosas.jpg" alt="primer producto"/>
+        <div class="info-card">
+            <div class="producto-titulo">
+            <h3 class="h4">Rosas 40 unidades</h3>
+            <p>30,50 <i class="bi bi-currency-euro"></i></p>
+        </div>
+        <div class="rating">
+            <i class="bi bi-star-fill main-color"></i>
+            <i class="bi bi-star-fill main-color"></i>
+            <i class="bi bi-star-fill main-color"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+        </div>
+            <p> Ramo de rosas: Contiene 40 unideades del color que elijas bajo disponibilidad. puedes agregarle cualquier de nuestros extras disponibles y hacer aún más especial la sorpresa</p>
+            <div class="card-actions">
+            <button class="btn anadir" type="submit" name="boton">Añadir al carrito</button>
+            <a class="btn btn-secundario" href="carrito.html">Ver</a>
+        </div>
+        </div>
+        </div>
+        <div class="Franja-card">
+            <div class="card">
+                    <img src="../asses/images/rosas.jpg" alt="primer producto"/>
+            <div class="info-card">
+                <div class="producto-titulo">
+                <h3 class="h4">Rosas 40 unidades</h3>
+                <p>30,50 <i class="bi bi-currency-euro"></i></p>
+            </div>
             <div class="rating">
                 <i class="bi bi-star-fill main-color"></i>
                 <i class="bi bi-star-fill main-color"></i>
@@ -49,81 +99,102 @@
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
             </div>
-            <p>Descripcion del primer producto</p>
-            <button class="btn" type="submit" name="boton">Añadir al carrito</button>
-            <a class="btn" href="carrito.html">Ver</a>
-        </div>
-        </div>
-    </main>
-    <section class="container">
-        <div>
-            <img src="." alt="seguro" width="50px" height="auto">
-            <div>
-                <h3>Pago Seguro</h3>
-                <h4>100% Garantizado</h4>
+                <p> Ramo de rosas: Contiene 40 unideades del color que elijas bajo disponibilidad. puedes agregarle cualquier de nuestros extras disponibles y hacer aún más especial la sorpresa</p>
+                <div class="card-actions">
+                <button class="btn anadir" type="submit" name="boton">Añadir al carrito</button>
+                <a class="btn btn-secundario" href="carrito.html">Ver</a>
             </div>
-        </div>
-        <div>
-            <img src="." alt="seguro" width="50px" height="auto">
-            <div>
-                <h3>Envío gratis</h3>
-                <h4>Pedidos de +100€</h4>
             </div>
-        </div>
-        <div>
-            <img src="." alt="seguro" width="50px" height="auto">
-            <div>
-                <h3>Garantia de calidad</h3>
-                <h4>Todos los productos</h4>
             </div>
-        </div>
-        <div>
-            <img src="." alt="seguro" width="50px" height="auto">
-            <div>
-                <h3>Ofertas únicas</h3>
-                <h4>Clientes u newsletters</h4>
-            </div>
-        </div>
 
+</main>
+<section class="container testimonios">
+    <h4>Testimonios de clientes</h4>
+    <div class="cliente">
+        <p>" Elejí un ramo de rosas rojas con desayuno y la verdad que toto muy bueno de sabor y las rosas estaban super bonitas y muy bien presentado todo"
+
+        </p>
+        <cite><span>Laura Flores</span></cite>
+    </div>
     </section>
-    <footer class="container">
-        <div>
-            <img src="." alt="logo" width="50px" height="auto"/>
-        <div>
-            <ul>
-                <li> Centro de Ayuda</li>
-                <li> Ayudaa al </li>
-                <li> Centro de Ayuda</li>
-                <li> Centro de Ayuda</li>
-            </ul>
-        </div>
-            
-        <div>
-            <ul class="menu">
-                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
-                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
-                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
-                <a href="Politica.html" name="politica"><li> Centro de Ayuda</a></li>
-            </ul>
-        </div>
-            
-        </div>
-        <div>
-            <h3>Unete a Nuestra Comunidad</h3>
-            <form>
-                <input type="email" name="email" placeholder="Escribe tu email"/>
-                <button type="submit" name="enviar" value="enviar"> Suscribirme</button>
-            </form>
-            <label for="politica">
-            <input type="checkbox" name="politica" id="politica"/>Acepto la politica de privacidad
+    <section class="container beneficios">
+    <div class="beneficios1">
+        <img src="../asses/icons/pagoseguro.svg" alt="seguro" width="50px" height="auto">
+    <div>
+        <h4 class="h5">Pago Seguro</h3>
+        <h5 class="text_small">100% Garantizado</h5>
+    </div>
+    </div>
+    <div class="beneficios2">
+        <img src="../asses/icons/envio.svg" alt="seguro" width="50px" height="auto">
+    <div>
+        <h4 class="h5">Envío gratis</h4>
+        <h5 class="text_small" >Pedidos de +100€</h5>
+    </div>
+    </div>
+    <div class="beneficios3">
+        <img src="../asses/icons/garantia.svg" alt="seguro" width="50px" height="auto">
+    <div>
+        <h4 class="h5">Garantia de calidad</h4>
+        <h5 class="text_small" >Todos los productos</h5>
+    </div>
+    </div>
+    <div class="beneficios4">
+        <img src="../asses/icons/ofertas.svg" alt="seguro" width="50px" height="auto">
+    <div>
+        <h4 class="h5">Ofertas únicas</h4>
+        <h5 class="text_small">Clientes y newsletters</h5>
+    </div>
+    </div>
+</section>
+<footer class="container">
+    <div class="pie">
+    <div class="logofoot">
+        <img src="../asses/images/Logoipopng.png" alt="logo" width="50px" height="auto"/>
+    <div class="columna1fot">
+    <div class="col-izqui">
+        <ul class="menu">
+            <li> Centro de Ayuda</li>
+            <li> Servicio al consumidor </li>
+            <li> Escríbenos</li>
+            <li> servicio Teléfonico</li>
+        </ul>
+    </div>
+    <div class="col-dere">
+        <ul class="menu">
+            <li><a href="../html/Politica.html" name="politica">Política de privacidad</a></li>
+            <li><a href="../html/Politica.html" name="politica">Condiciones de compra</a></li>
+            <li><a href="../html/detallesproductos.html" name="politica">Opiniones de clientes</a></li>
+            <li><a href="../html/Politica.html" name="politica">Aviso de privecidad</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+</div>
+    <div class="columna2fot">
+        <div class="comunidad">
+        <h3>Unete a Nuestra Comunidad</h3>
+        <div class="suscribe">
+    <form>
+        <input  class="news" type="email" name="email" placeholder="Escribe tu email"/>
+        <button type="submit" name="enviar" value="enviar"> Suscribirme</button>
+    </form>
+        <label for="politica">
+            <input type="checkbox" name="politica" id="politica"/>Acepto <span>la politica de privacidad</span>
         </label>
-        <h3>Siguenos en Redes</h3>
-        <img src="." alt="fb" width="50px" height="50px"/>
-        <img src="." alt="fb" width="50px" height="50px"/>
-        <img src="." alt="fb" width="50px" height="50px"/>
-        <img src="." alt="fb" width="50px" height="50px"/>
-        </div>
-    </footer>
+    </div>
+    </div>
+        <div class="redes">
+    <h3 class="h5">Siguenos en Redes</h3>
+    <div class="iconos">
+        <img src="../asses/icons/whatsapp.svg" alt="whatsapp" width="50px" height="50px"/>
+        <img src="../asses/icons/face.svg" alt="facebook" width="50px" height="50px"/>
+        <img src="../asses/icons/instagram.svg" alt="instagram" width="50px" height="50px"/>
+    </div>
+    </div>
+    </div>
+</div>
+</footer>
 
 </body>
 </html>

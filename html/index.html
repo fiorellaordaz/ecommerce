@@ -9,101 +9,132 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header>
-        <img src="../asses/images/Logoipopng.png" alt="logo" width="50px" height="auto"/>
+    <header class="container cabeza">
+        <img src="../asses/images/Logoipopng.png" alt="logo"/>
         <input type="search" name="buscador" placeholder="Buscar Producto"/>
-        <a class="btn" id="comprar" href="carrito.html"> <span>1</span>Carrito</a>
-    </header>
-    <nav>
-        <div>
-         <ul>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="carrito.html">Carrito</a></li>
-            <li><a href="detallesproductos.html">Detalles de Productos</a></li>
-            <li><a href="detallesproductos.html">Gadgets</a></li>
-            <li><a href="detallesproductos.html">Ofertass</a></li>
-         </ul>
-        </div>
+        <a class="btn" id="comprar" href="carrito.html" name="carrito">Carrito<span>1</span></a>
+</header>
+<nav class="container" id="navegador">
+    <div class="col-izq">
+    <ul>
+        <li><a href="../html/index.html">Inicio</a></li>
+        <li><a href="../html/productos.html">Productos</a></li>
+        <li><a href="../html/carrito.html">Carrito</a></li>
+        <li><a href="../html/detallesproductos.html">Detalles de Productos</a></li>
+        <li><a href="../html/productos.html">Ofertas</a></li>
+    </ul>
+    </div>
     </nav>
-    <main>
-        <div class="box">
-            <form>
-                <h3>Iniciar Sesión</h3>
-                <p>Accede con tus Datos</p>
-                <input type="email" name="name" placeholder="Usuario"/>
-                <input type="password" name="contraseña" placeholder="Contraseña"/>
-                <a href="productos.html" name="productos">Iniciar Sesion</a>
-                
-            </form>
-        </div>
-        <div class="box">
-            <form>
-            <h3>Registrate</h3>
-            <p>Crea tu cuenta y disfruta de descuentos</p>
-                <input type="text" name="name" placeholder="Nombre"/>
-                <input type="text" name="apellido" placeholder="Apellido"/>
-                <input type="email" name="email" placeholder="Email"/>
-                <input type="password" name="contraseña" placeholder="Contraseña"/>
-                <a href="productos.html" name="productos">Crear Cuenta</a>
-            </form>
-        </div>
-    </main>
-    <section>
-            <img src="." alt="seguro" width="50px" height="auto">
-                <h3>Pago Seguro</h3>
-                <h5>100% Garantizado</h5>
-        <div>
-            <img src="." alt="envio" width="50px" height="auto">
-                <h2>Envío Gratis</h2>
-                <h5>En pedidos de +100€</h5>
-        </div>
-        <div>
-            <img src="." alt="garantia" width="50px" height="auto">
-                <h3>Garantía de calidad</h3>
-                <h4>En todos los productos</h4>
-        </div>
-        <div>
-            <img src="." alt="ofertas" width="50px" height="auto">
-                <h2>Ofertas únicas</h2>
-                <h4>Clientes y newsletters</h4>
-        </div>
-    </section>
-    <footer>
-        <div>
-            <img src="." alt="logo" width="150px" height="auto"/>
-                <p> Centro de Ayuda</p>
-                <p> Servico al consumidor</p>
-                <p> Escribenos</p>
-                <p> Servicio Teléfonico</p>
-        </div>
-        <div>
-                <a href="Politica.html" name="politica"> Politica de privacidad</a>
-                <a href="Politica.html" name="politica"> Condiciones de compra</a>
-                <a href="Politica.html" name="politica"> Opiniones de clientes</a>
-                <a href="Politica.html" name="politica"> Aviso de privacidad</a>
-            </div>
-            <form>
-                <h3>Únete a nuestra comunidad y recibe
-                    ofertas diarias</h3>
-                    <div>
-                <input name="email" placeholder="Escribe tu email"/>
-                <button name="enviar" value="enviar"> Suscribirme</button>
-            </div>
-            <label for="politica">
-            <input type="checkbox" name="politica" id="politica"/>Acepto la politica de privacidad
-         </label>
-         </form>
-         </div>
-        <h3>Siguenos en Redes</h3>
-        <img src="../asses/icons/whatsapp.png" alt="fb" width="50px" height="50px"/>
-        <img src="../asses/icons/insta.png" alt="Ig" width="50px" height="50px"/>
-        <img src="../asses/icons/face.png" alt="T" width="50px" height="50px"/>
-        <img src="../asses/icons/twitter.png" alt="fb" width="50px" height="50px"/>
-        </div>
-    </footer>
+<main>
+    <div class="principio">
+    <div class="box">
+        <div class="login">
+    <form>
+        <h3>Iniciar Sesión</h3>
+        <p>Accede con tus Datos</p>
+        <input type="email" name="name" placeholder="Usuario"/>
+        <input type="password" name="contraseña" placeholder="Contraseña"/>
+        <a  class="btn" href="productos.html" name="productos">Iniciar Sesion</a>
+    </form>
 </div>
+    </div>
+    <div class="fianl">
+    <div class="box">
+        <div class="registra">
+    <form>
+        <h3>Registrate</h3>
+        <p>Crea tu cuenta y <span>disfruta de descuentos</span></p>
+        <input type="text" name="name" placeholder="Nombre"/>
+        <input type="text" name="apellido" placeholder="Apellido"/>
+        <input type="email" name="email" placeholder="Email"/>
+        <input type="password" name="contraseña" placeholder="Contraseña"/>
+        <a class="btn" href="productos.html" name="productos">Crear Cuenta</a>
+    </form>
+</div>
+    </div>
+</div>
+</div>
+</main>
+<section class="container beneficios">
+    <div class="beneficios1">
+        <img src="../asses/icons/pagoseguro.svg" alt="seguro" width="50px" height="auto">
+    <div>
+        <h4 class="h5">Pago Seguro</h3>
+        <h5 class="text_small">100% Garantizado</h5>
+    </div>
+    </div>
+    <div class="beneficios2">
+        <img src="../asses/icons/envio.svg" alt="seguro" width="50px" height="auto">
+    <div>
+        <h4 class="h5">Envío gratis</h4>
+        <h5 class="text_small" >Pedidos de +100€</h5>
+    </div>
+    </div>
+    <div class="beneficios3">
+        <img src="../asses/icons/garantia.svg" alt="seguro" width="50px" height="auto">
+    <div>
+        <h4 class="h5">Garantia de calidad</h4>
+        <h5 class="text_small" >Todos los productos</h5>
+    </div>
+    </div>
+    <div class="beneficios4">
+        <img src="../asses/icons/ofertas.svg" alt="seguro" width="50px" height="auto">
+    <div>
+        <h4 class="h5">Ofertas únicas</h4>
+        <h5 class="text_small">Clientes y newsletters</h5>
+    </div>
+    </div>
+</section>
+<footer class="container">
+    <div class="pie">
+    <div class="logofoot">
+        <img src="../asses/images/Logoipopng.png" alt="logo" width="50px" height="auto"/>
+    <div class="columna1fot">
+    <div class="col-izqui">
+        <ul class="menu">
+            <li> Centro de Ayuda</li>
+            <li> Servicio al consumidor </li>
+            <li> Escríbenos</li>
+            <li> servicio Teléfonico</li>
+        </ul>
+    </div>
+    <div class="col-dere">
+        <ul class="menu">
+            <li><a href="../html/Politica.html" name="politica">Política de privacidad</a></li>
+            <li><a href="../html/Politica.html" name="politica">Condiciones de compra</a></li>
+            <li><a href="../html/detallesproductos.html" name="politica">Opiniones de clientes</a></li>
+            <li><a href="../html/Politica.html" name="politica">Aviso de privecidad</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+</div>
+    <div class="columna2fot">
+        <div class="comunidad">
+        <h3>Unete a Nuestra Comunidad</h3>
+        <div class="suscribe">
+    <form>
+        <input  class="news" type="email" name="email" placeholder="Escribe tu email"/>
+        <button type="submit" name="enviar" value="enviar"> Suscribirme</button>
+    </form>
+        <label for="politica">
+            <input type="checkbox" name="politica" id="politica"/>Acepto <span>la politica de privacidad</span>
+        </label>
+    </div>
+    </div>
+        <div class="redes">
+    <h3 class="h5">Siguenos en Redes</h3>
+    <div class="iconos">
+        <img src="../asses/icons/whatsapp.svg" alt="whatsapp" width="50px" height="50px"/>
+        <img src="../asses/icons/face.svg" alt="facebook" width="50px" height="50px"/>
+        <img src="../asses/icons/instagram.svg" alt="instagram" width="50px" height="50px"/>
+    </div>
+    </div>
+    </div>
+</div>
+</footer>
 </body>
 </html>
