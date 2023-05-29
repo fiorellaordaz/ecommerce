@@ -11,14 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"> 
 </head>
-<body>
+<body onload="inicializar()">
+
     <header class="container cabeza">
         <img src="../asses/images/Logoipopng.png" alt="logo"/>
         <input type="search" name="buscador" placeholder="Buscar Producto"/>
         <a class="btn" id="comprar" href="carrito.html" name="carrito">Carrito<span>1</span></a>
 </header>
-<nav class="container" id="navegador">
-    <div class="col-izq">
+<div id="inicio">
+    <nav class="container" id="navegador">
+
+    <!--<div class="col-izq">
     <ul>
         <li><a href="../html/index.html">Inicio</a></li>
         <li><a href="../html/productos.html">Productos</a></li>
@@ -26,40 +29,53 @@
         <li><a href="../html/detallesproductos.html">Detalles de Productos</a></li>
         <li><a href="../html/productos.html">Ofertas</a></li>
     </ul>
-    </div>
-    </nav>
+    </div>-->
+    </nav> 
+</div>
 <main>
+
     <div class="principio">
+
     <div class="box">
         <div class="login">
-    <form>
+    <div id="form1">
         <h3>Iniciar Sesión</h3>
         <p>Accede con tus Datos</p>
-        <input type="email" name="name" placeholder="Usuario"/>
-        <input type="password" name="contraseña" placeholder="Contraseña"/>
-        <a  class="btn" href="productos.html" name="productos">Iniciar Sesion</a>
-    </form>
+        <input id="email1" type="email" name="email" placeholder="Email"/>
+        <input id="password" type="password" name="password" placeholder="Contraseña"/>
+        <button id="btonn" class="btn" type="submit" name="productos">Iniciar Sesion</button>
+    </div>
 </div>
     </div>
-    <div class="fianl">
+
+
+    <div class="final">
     <div class="box">
         <div class="registra">
-    <form>
+
+    <div id="form">
+        
         <h3>Registrate</h3>
         <p>Crea tu cuenta y <span>disfruta de descuentos</span></p>
         <input type="text" name="name" placeholder="Nombre"/>
         <input type="text" name="apellido" placeholder="Apellido"/>
-        <input type="email" name="email" placeholder="Email"/>
-        <input type="password" name="contraseña" placeholder="Contraseña"/>
-        <a class="btn" href="productos.html" name="productos">Crear Cuenta</a>
-    </form>
-</div>
+        <input id="email" type="email" name="email" placeholder="Email"/>
+        <input id="contra1" type="password" name="contraseña" placeholder="Contraseña"/>
+        <input id="contra2" type="password" name="contraseña" placeholder="Repetir contraseña"/>
+        <button id="bton" class="btn" type="submit" >Crear Cuenta</button>
+
     </div>
 </div>
+    </div>
+
 </div>
+
+
+
 </main>
-<section class="container beneficios">
-    <div class="beneficios1">
+
+<section id= "selec" class="container beneficios">
+    <!-- <div class="beneficios1">
         <img src="../asses/icons/pagoseguro.svg" alt="seguro" width="50px" height="auto">
     <div>
         <h4 class="h5">Pago Seguro</h3>
@@ -76,7 +92,7 @@
     <div class="beneficios3">
         <img src="../asses/icons/garantia.svg" alt="seguro" width="50px" height="auto">
     <div>
-        <h4 class="h5">Garantia de calidad</h4>
+        <h4 class="h5">Garantía de calidad</h4>
         <h5 class="text_small" >Todos los productos</h5>
     </div>
     </div>
@@ -86,29 +102,33 @@
         <h4 class="h5">Ofertas únicas</h4>
         <h5 class="text_small">Clientes y newsletters</h5>
     </div>
-    </div>
+    </div> -->
 </section>
-<footer class="container">
+<footer  class="container">
     <div class="pie">
     <div class="logofoot">
         <img src="../asses/images/Logoipopng.png" alt="logo" width="50px" height="auto"/>
-    <div class="columna1fot">
-    <div class="col-izqui">
+    <div id="colum1">
+        <div  class="columna1fot">
+    <!-- <div  class="col-izqui">
         <ul class="menu">
             <li> Centro de Ayuda</li>
             <li> Servicio al consumidor </li>
             <li> Escríbenos</li>
             <li> servicio Teléfonico</li>
         </ul>
-    </div>
-    <div class="col-dere">
-        <ul class="menu">
-            <li><a href="../html/Politica.html" name="politica">Política de privacidad</a></li>
-            <li><a href="../html/Politica.html" name="politica">Condiciones de compra</a></li>
-            <li><a href="../html/detallesproductos.html" name="politica">Opiniones de clientes</a></li>
-            <li><a href="../html/Politica.html" name="politica">Aviso de privecidad</a></li>
-        </ul>
-    </div>
+    </div> -->
+</div>
+    <div id="colum2">
+    <div  class="col-dere">
+        <!--<ul class="menu">
+            <li><a href="../html/Politica.html">Política de privacidad</a></li>
+            <li><a href="../html/Politica.html" >Condiciones de compra</a></li>
+            <li><a href="../html/detallesproductos.html">Opiniones de clientes</a></li>
+            <li><a href="../html/Politica.html" >Aviso de privecidad</a></li>
+        </ul>-->
+    </div> 
+</div>
     </div>
 </div>
 </div>
@@ -136,5 +156,6 @@
     </div>
 </div>
 </footer>
+<script src="../js/index.js"></script>
 </body>
 </html>

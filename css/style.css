@@ -90,14 +90,14 @@ main .login{
     width: 100%;
 }
 
-.login form{
+.login #form1{
     padding: 32px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.login form p{
+.login #form1 p{
     margin: 0;
 }
 
@@ -106,18 +106,18 @@ main .login{
     border-radius: 8px;
 }
 
-.registra form{
+.registra #form{
     padding: 32px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.registra form p{
+.registra #form p{
     margin:0;
 }
 
-.registra form input{
+.registra #form input{
 padding: 16px;
 border-radius: 8px;
 }
